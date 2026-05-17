@@ -22,6 +22,7 @@ The objective is to quantify differences in frequency structure, texture organis
 The analysis reveals measurable modality‑dependent differences in spectral decay behaviour, local texture structure, and spatial correlation statistics between CT‑derived anatomical imagery and histopathology patches.
 
 
+
 ## Features
 
 The notebook includes:
@@ -32,12 +33,13 @@ The notebook includes:
 * Multi‑distance and multi‑angle GLCM extraction
 * RGB / HSV / LAB texture analysis
 * Statistical hypothesis testing
-  * Mann-Whitney U
-  * Kruskal-Wallis
+  * Mann‑Whitney U
+  * Kruskal‑Wallis
   * Cliff’s delta
 * Gaussian noise robustness analysis
 * t‑SNE visualisation
 * Exploratory Random Forest feature importance analysis
+
 
 
 ## Datasets
@@ -52,6 +54,7 @@ The experiments use the following MedMNIST datasets:
 All datasets are automatically downloaded via the `medmnist` Python package.
 
 
+
 ## Run in Google Colab
 
 1. Open [Google Colab](https://colab.research.google.com/)
@@ -59,6 +62,7 @@ All datasets are automatically downloaded via the `medmnist` Python package.
 3. Run all cells (`Runtime → Run all`)
 
 The notebook automatically installs required dependencies.
+
 
 
 ## Reproducibility
@@ -69,10 +73,13 @@ The notebook automatically installs required dependencies.
 * Fully self‑contained notebook pipeline
 
 
+
 ## Repository Structure
 
 ```text
 .
 ├── spectral_analysis.ipynb
 ├── README.md
-└── LICENSE
+├── LICENSE
+├── requirements.txt
+└── .gitignore

@@ -61,7 +61,7 @@ All datasets are automatically downloaded via the `medmnist` Python package.
 2. Upload `spectral_analysis.ipynb`
 3. Run all cells (`Runtime → Run all`)
 
-The notebook automatically installs required dependencies.
+The first cell of the notebook automatically installs all required dependencies via `pip`.
 
 
 
